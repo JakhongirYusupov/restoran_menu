@@ -1,0 +1,58 @@
+.hero_title {
+    padding-top: 23px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    margin-top: 44px;
+    align-items: center;
+
+    &_inputs {
+        max-width: 947px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        column-gap: 28px;
+    }
+
+    &_input {
+        width: 297px;
+        height: 55px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        text-indent: 17px;
+        outline: none;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &_input::placeholder {
+        color: #777777;
+    }
+
+    &_long_input {
+        width: 622px;
+    }
+
+    &_btn_box {
+        margin-left: 94px;
+    }
+
+    &_btn {
+        width: 102px;
+        height: 41px;
+        background: #1DE755;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
