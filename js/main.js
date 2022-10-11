@@ -5,8 +5,8 @@ const inputNarxi = document.querySelector('#narxi');
 const inputRasmi = document.querySelector('#rasmi');
 const inputOshpazi = document.querySelector('#oshpazi');
 const inputRestorani = document.querySelector('#restorani');
-const delbtn = document.querySelectorAll('.removebtn')
-const endbtn = document.querySelectorAll('.endbtn')
+const delbtn = document.querySelectorAll('.removebtn');
+const endbtn = document.querySelectorAll('.endbtn');
 
 function inputTest(inputNomi, inputNarxi, inputRasmi, inputOshpazi, inputRestorani) {
     const httpRegex = /^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$/;
@@ -83,11 +83,7 @@ form.addEventListener('submit', (event) => {
     menu.prepend(div1)
     remove_end_btns()
 
-    inputNomi.value = ''
-    inputNarxi.value = ''
-    inputRasmi.value = ''
-    inputOshpazi.value = ''
-    inputRestorani.value = ''
+    form.reset()
 
 })
 
